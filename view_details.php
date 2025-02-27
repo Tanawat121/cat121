@@ -1,5 +1,6 @@
 <?php
 include 'db.php';
+header('Content-Type: text/html; charset=utf-8');
 
 if (isset($_POST['id'])) {
     $id = $_POST['id'];
